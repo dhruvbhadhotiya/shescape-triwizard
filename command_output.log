@@ -1,0 +1,84 @@
+
+Command: shopt -s histappend
+Output:
+
+Exit Code: 0
+----
+Command: pwd
+Output:
+/Users/shubhamvs/Desktop/MSIT
+Exit Code: 0
+----
+Command: npx expo install react-native-safe-area-context
+Output:
+› Installing 1 SDK 52.0.0 compatible native module using npm
+> npm install
+
+up to date, audited 1183 packages in 2s
+
+109 packages are looking for funding
+  run `npm fund` for details
+
+5 low severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+Exit Code: 0
+----
+Command: npx expo install react-native-safe-area-context
+Output:
+› Installing 1 SDK 52.0.0 compatible native module using npm
+> npm install
+
+up to date, audited 1183 packages in 1s
+
+109 packages are looking for funding
+  run `npm fund` for details
+
+5 low severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+Exit Code: 0
+----
+Command: npx expo install @expo-google-fonts/inter expo-font
+Output:
+› Installing 1 SDK 52.0.0 compatible native module and 1 other package using npm
+> npm install --save @expo-google-fonts/inter
+
+added 1 package, and audited 1184 packages in 3s
+
+109 packages are looking for funding
+  run `npm fund` for details
+
+5 low severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+› Added config plugin: expo-font
+Exit Code: 0
+----
+Command: npx expo install @expo-google-fonts/poppins expo-font
+Output:
+› Installing 1 SDK 52.0.0 compatible native module and 1 other package using npm
+> npm install --save @expo-google-fonts/poppins
+
+up to date, audited 1185 packages in 1s
+
+109 packages are looking for funding
+  run `npm fund` for details
+
+5 low severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+Exit Code: 0
+----

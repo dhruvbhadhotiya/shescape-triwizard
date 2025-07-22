@@ -1,0 +1,86 @@
+{
+  "expo": {
+    "name": "MSIT",
+    "slug": "aarya",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "com.shescape",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAmMveLjVHmrDEj6dFRtJC4ZHkg6-2N5Uc"
+        }
+      },
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app needs access to your location to show your current position."
+      }
+    },
+    "android": {
+      "package": "com.shescape",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAmMveLjVHmrDEj6dFRtJC4ZHkg6-2N5Uc"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsDownloadToken": "pk.eyJ1Ijoic2h1YmhhbXZzIiwiYSI6ImNtNmloeGt5MzA5dnAyanM1YXJtNnMyOWkifQ.fx-rqjhTHSNCpHwnXzDZ-g"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow SheScape to use your location."
+        }
+      ],
+      "expo-font",
+      "expo-audio"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a9fdccfd-27cf-4b7d-ad9a-dd15b108c8b8"
+      }
+    },
+    "owner": "yasharrived"
+  }
+}

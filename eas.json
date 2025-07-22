@@ -1,0 +1,49 @@
+{
+  "cli": {
+    "version": ">= 5.9.1"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "MAPBOX_DOWNLOADS_TOKEN": "sk.eyJ1IjoieWFzaGFycml2ZWQiLCJhIjoiY2x0eGVtZGJyMGJvMjJrcXIyZnN0ZWxvdyJ9.9FjQiZGKBp_RKzYoqHxkeg"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "MAPBOX_DOWNLOADS_TOKEN": "PASTE_YOUR_MAPBOX_TOKEN_HERE"
+      }
+    },
+    "preview2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      },
+      "env": {
+        "MAPBOX_DOWNLOADS_TOKEN": "sk.eyJ1IjoieWFzaGFycml2ZWQiLCJhIjoiY2x0eGVtZGJyMGJvMjJrcXIyZnN0ZWxvdyJ9.9FjQiZGKBp_RKzYoqHxkeg"
+      }
+    },
+    "preview3": {
+      "developmentClient": true,
+      "env": {
+        "MAPBOX_DOWNLOADS_TOKEN": "sk.eyJ1IjoieWFzaGFycml2ZWQiLCJhIjoiY2x0eGVtZGJyMGJvMjJrcXIyZnN0ZWxvdyJ9.9FjQiZGKBp_RKzYoqHxkeg"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "env": {
+        "MAPBOX_DOWNLOADS_TOKEN": "sk.eyJ1IjoieWFzaGFycml2ZWQiLCJhIjoiY2x0eGVtZGJyMGJvMjJrcXIyZnN0ZWxvdyJ9.9FjQiZGKBp_RKzYoqHxkeg"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
