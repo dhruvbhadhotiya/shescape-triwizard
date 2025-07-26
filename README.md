@@ -18,7 +18,7 @@ Aarya is a comprehensive women's safety mobile application that provides:
 ##  Working Demo Video (Aarya)
 
 <div align="center">
-  <video src="https://github.com/dhruvbhadhotiya/shescape-triwizard/assets/your_github_username/videos/Aarya.mp4" width="800" controls>
+  <video src="https://github.com/dhruvbhadhotiya/shescape-triwizard/assets/Aarya.mp4" width="800" controls>
     Your browser does not support the video tag.
   </video>
 </div>
@@ -34,9 +34,15 @@ Aarya is a comprehensive women's safety mobile application that provides:
 | <img src="assets/images/3.png" width="300"> | <img src="assets/images/4.png" width="300"> |
 | **Screenshot 3** | **Screenshot 4** |
 
-##  Explanation (YouTube Video)
+##  Explanation Video
 
-For a detailed walkthrough of Aarya's features and implementation, check out our [YouTube Explanation Video](https://youtu.be/YOUR_YOUTUBE_VIDEO_ID).
+<div align="center">
+  <h3>Watch our detailed demo and explanation</h3>
+  <a href="https://youtu.be/OjlOkJb56Bk?si=CmYsVt5MLF9O6VDT" target="_blank">
+    <img src="https://img.youtube.com/vi/OjlOkJb56Bk/maxresdefault.jpg" alt="Aarya App Demo" width="800">
+  </a>
+  <p>Click the image above to watch the full video on YouTube</p>
+</div>
 
 ##  How to Run the Project
 
